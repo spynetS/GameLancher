@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.SpySoftware.NewGame">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="16" width="1905" height="3137"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="dc38e" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16753921"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="81461" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15177473"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="393e" class="javax.swing.JButton" binding="steambut">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16753921"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <icon value="com/SpySoftware/Filer/icons/steam-512.png"/>
+                  <text value="STEAM"/>
+                </properties>
+              </component>
+              <component id="ae6eb" class="javax.swing.JButton" binding="originbut">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16753921"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <icon value="com/SpySoftware/Filer/icons/unnamed.png"/>
+                  <text value="ORIGIN"/>
+                </properties>
+              </component>
+              <vspacer id="49fd4">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="59ae9" class="javax.swing.JButton" binding="epicgamesbut">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16753921"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <icon value="com/SpySoftware/Filer/icons/download.png"/>
+                  <iconTextGap value="1"/>
+                  <text value="EPIC GAMES"/>
+                </properties>
+              </component>
+              <component id="6567" class="javax.swing.JButton" binding="ALLButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16753921"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <horizontalTextPosition value="11"/>
+                  <icon value="com/SpySoftware/Filer/icons/img_259453.png"/>
+                  <text value="ALL"/>
+                </properties>
+              </component>
+              <component id="2183f" class="javax.swing.JButton" binding="otherbut">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-16753921"/>
+                  <borderPainted value="false"/>
+                  <contentAreaFilled value="false"/>
+                  <focusPainted value="false"/>
+                  <font size="20"/>
+                  <foreground color="-1"/>
+                  <icon value="com/SpySoftware/Filer/icons/other-icon-png-5.png"/>
+                  <text value="OTHER"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <hspacer id="7e731">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="50462" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16753921"/>
+              <font name="JetBrains Mono" size="20" style="1"/>
+              <foreground color="-1"/>
+              <model>
+                <item value="cs"/>
+                <item value="titanfall2"/>
+                <item value="apex"/>
+              </model>
+            </properties>
+          </component>
+          <grid id="66e08" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3f9f0" class="javax.swing.JButton" binding="RUNButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="36" style="1"/>
+                  <text value="RUN"/>
+                </properties>
+              </component>
+              <vspacer id="fddb7">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <component id="a61ee" class="javax.swing.JButton" binding="RUNButton1" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16056576"/>
+              <font name="JetBrains Mono" size="22" style="1"/>
+              <text value="RUN"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
